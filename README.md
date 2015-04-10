@@ -52,3 +52,10 @@ You can also clear values:
 ```javascript
 client.clear('name')
 ```
+
+## Security Note
+
+This version does not attempt to verify the hostname of the page creating the frame.
+
+This means that any site can open a frame and see your information.  Privileged information
+should not be communicated with this tool.
