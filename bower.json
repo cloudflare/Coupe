@@ -1,0 +1,10 @@
+{
+  "name": "coupe",
+  "version": "1.0.0",
+  "ignore": [
+    "deploy.yaml",
+    "circle.yml",
+    "node_modules/",
+    "test/"
+  ]
+}

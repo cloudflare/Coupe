@@ -1,0 +1,8 @@
+default:
+  root: 'build'
+
+production:
+  bucket: 'bus.eager.io'
+
+development:
+  bucket: 'bus-dev.eager.io'
