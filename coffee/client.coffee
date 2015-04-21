@@ -85,6 +85,7 @@ frame = null
 createClient = (opts) ->
   if typeof opts is 'string'
     opts = {siteId: opts}
+  {siteId} = opts
 
   if not cache[siteId]
     if not frame
